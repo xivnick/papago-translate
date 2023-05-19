@@ -25,7 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("번역할 문장 : ");
+        System.out.print("번역할 문장을 입력하세요 : ");
         String src = scanner.nextLine();
 
         String url = "https://openapi.naver.com/v1/papago/n2mt";
